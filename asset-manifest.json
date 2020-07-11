@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/olx-rebuild/static/css/main.0c88cb14.chunk.css",
+    "main.js": "/olx-rebuild/static/js/main.6c92aefc.chunk.js",
+    "main.js.map": "/olx-rebuild/static/js/main.6c92aefc.chunk.js.map",
+    "runtime-main.js": "/olx-rebuild/static/js/runtime-main.2bb39fd5.js",
+    "runtime-main.js.map": "/olx-rebuild/static/js/runtime-main.2bb39fd5.js.map",
+    "static/js/2.d042e762.chunk.js": "/olx-rebuild/static/js/2.d042e762.chunk.js",
+    "static/js/2.d042e762.chunk.js.map": "/olx-rebuild/static/js/2.d042e762.chunk.js.map",
+    "index.html": "/olx-rebuild/index.html",
+    "precache-manifest.35aebdc1f88e7e49236a5e91b5704a92.js": "/olx-rebuild/precache-manifest.35aebdc1f88e7e49236a5e91b5704a92.js",
+    "service-worker.js": "/olx-rebuild/service-worker.js",
+    "static/css/main.0c88cb14.chunk.css.map": "/olx-rebuild/static/css/main.0c88cb14.chunk.css.map",
+    "static/js/2.d042e762.chunk.js.LICENSE.txt": "/olx-rebuild/static/js/2.d042e762.chunk.js.LICENSE.txt",
+    "static/media/product.png": "/olx-rebuild/static/media/product.bb555731.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2bb39fd5.js",
+    "static/js/2.d042e762.chunk.js",
+    "static/css/main.0c88cb14.chunk.css",
+    "static/js/main.6c92aefc.chunk.js"
+  ]
+}
