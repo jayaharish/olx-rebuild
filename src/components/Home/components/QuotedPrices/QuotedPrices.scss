@@ -1,0 +1,28 @@
+.quoted_price {
+  width: 80%;
+  height: 100%;
+  background-color: #e0e5ec;
+  display: flex;
+  padding: 2rem;
+  box-sizing: border-box;
+
+  justify-content: center;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+    -9px -9px 16px rgba(255, 255, 255, 0.5);
+  table {
+    width: 100%;
+    border-spacing: 2px 2rem;
+    th,
+    td {
+      text-align: center;
+      &:first-of-type {
+        width: 30%;
+      }
+    }
+    tr {
+      &:not(:first-of-type) {
+        margin-top: 2rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.searchbar_holder {
+  height: 30px;
+  width: 400px;
+  display: flex;
+  margin: 0 auto;
+  input {
+    border: 1px solid black;
+    flex-grow: 1;
+    padding: 0 1rem;
+  }
+  input:focus {
+    outline: none;
+  }
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.377);
+    border: none;
+    border-left: 1px solid black;
+  }
+  button:focus {
+    background-color: rgba(0, 0, 0, 0.527);
+    outline: none;
+  }
+}
+.products_holder {
+  margin-top: 5rem;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+  grid-column-gap: 5rem;
+  grid-row-gap: 5rem;
+}

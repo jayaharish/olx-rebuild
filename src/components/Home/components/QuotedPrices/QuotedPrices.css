@@ -1,0 +1,36 @@
+.quoted_price {
+  width: 80%;
+  height: 100%;
+  background-color: #e0e5ec;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+          box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+}
+
+.quoted_price table {
+  width: 100%;
+  border-spacing: 2px 2rem;
+}
+
+.quoted_price table th,
+.quoted_price table td {
+  text-align: center;
+}
+
+.quoted_price table th:first-of-type,
+.quoted_price table td:first-of-type {
+  width: 30%;
+}
+
+.quoted_price table tr:not(:first-of-type) {
+  margin-top: 2rem;
+}
+/*# sourceMappingURL=QuotedPrices.css.map */

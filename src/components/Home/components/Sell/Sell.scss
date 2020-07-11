@@ -1,0 +1,51 @@
+.sell {
+  min-height: 100%;
+  width: 80%;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e0e5ec;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+    -9px -9px 16px rgba(255, 255, 255, 0.5);
+  padding: 2rem;
+  .sell_header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .sell_header_text {
+      font-size: 2rem;
+    }
+    .look_bargains {
+      width: fit-content;
+      padding: 1rem 2rem;
+      border-radius: 3px;
+      font-size: 1rem;
+      margin-left: auto;
+      border: none;
+      background-color: rgba(72, 72, 214, 0.774);
+      color: white;
+      transition-duration: 1s;
+    }
+    .look_bargains:hover {
+      background-color: rgba(34, 34, 112, 0.774);
+    }
+  }
+
+  .products_holder {
+    .add {
+      background-color: #e0e5ec;
+      box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+        -9px -9px 16px rgba(255, 255, 255, 0.5);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition-duration: 1s;
+    }
+    .add:hover {
+      background-color: #a1a6ac;
+    }
+  }
+}

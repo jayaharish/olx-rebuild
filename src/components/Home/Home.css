@@ -1,0 +1,112 @@
+.home {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  background-color: #e0e5ec;
+}
+
+.home .navbar {
+  height: 60px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: fixed;
+  padding: 0 2rem;
+  background-color: #e0e5ec;
+  -webkit-box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+          box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+}
+
+.home .navbar .navbar__brand {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.home .navbar .navbar__options {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin: auto;
+  font-size: 1.3rem;
+}
+
+.home .navbar .navbar__options button {
+  color: black;
+  margin: 0 1rem;
+  border-radius: 3px;
+  width: 5rem;
+  height: 40px;
+  font-size: 1.2rem;
+  background-color: transparent;
+  border: 1px solid black;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.home .navbar .navbar__options button:hover {
+  background-color: #19bd9b;
+  color: white;
+}
+
+.home .navbar .navbar__options .active {
+  color: white;
+  background-color: #19bd9b;
+  border: none;
+}
+
+.home .navbar .account {
+  margin-left: auto;
+}
+
+.home .navbar .account button {
+  height: 30px;
+  margin-left: 10px;
+  background-color: transparent;
+  border: 1px solid black;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  border-radius: 2px;
+}
+
+.home .navbar .account button:hover {
+  background-color: black;
+  color: white;
+}
+
+.home .container {
+  position: relative;
+  top: 60px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  top: 50px;
+  padding: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=Home.css.map */

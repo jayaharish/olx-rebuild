@@ -1,0 +1,53 @@
+.searchbar_holder {
+  height: 30px;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+.searchbar_holder input {
+  border: 1px solid black;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0 1rem;
+}
+
+.searchbar_holder input:focus {
+  outline: none;
+}
+
+.searchbar_holder button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  background-color: rgba(0, 0, 0, 0.377);
+  border: none;
+  border-left: 1px solid black;
+}
+
+.searchbar_holder button:focus {
+  background-color: rgba(0, 0, 0, 0.527);
+  outline: none;
+}
+
+.products_holder {
+  margin-top: 5rem;
+  width: 80%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(20%, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+  grid-column-gap: 5rem;
+  grid-row-gap: 5rem;
+}
+/*# sourceMappingURL=Buy.css.map */
